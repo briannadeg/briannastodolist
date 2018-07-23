@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.toDoInput {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.toDoCompleted {
+  opacity: 0.5;
+  background-color: #ccc;
+}
+
+.toDoCompleted p {
+  text-decoration: line-through;
+}
+
+button.actionButton {
+  margin-left: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.myImage {
+  width: 200px !important;
+  height: 200px !important;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.toDoRow {
+  min-width: 400px;
+  margin-top: 20px;
+  min-height: 80px;
+}
+
+.toDoRowFormGroup {
+  position: relative;
+}
+
+div.main-app {
+  margin-top: 40px;
+}
+
+.centered {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.bottomNavigation {
+  position: absolute;
+  bottom: 0;
+}
